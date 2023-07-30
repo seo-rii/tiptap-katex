@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@seorii/prosemirror-math':
-    specifier: ^0.3.1
-    version: 0.3.1(katex@0.13.24)(prosemirror-commands@1.5.2)(prosemirror-gapcursor@1.3.2)(prosemirror-history@1.3.2)(prosemirror-inputrules@1.2.1)(prosemirror-keymap@1.2.2)(prosemirror-model@1.19.3)(prosemirror-state@1.4.3)(prosemirror-transform@1.7.4)(prosemirror-view@1.31.7)
+    specifier: ^0.3.2
+    version: 0.3.2(katex@0.13.24)(prosemirror-commands@1.5.2)(prosemirror-gapcursor@1.3.2)(prosemirror-history@1.3.2)(prosemirror-inputrules@1.2.1)(prosemirror-keymap@1.2.2)(prosemirror-model@1.19.3)(prosemirror-state@1.4.3)(prosemirror-transform@1.7.4)(prosemirror-view@1.31.7)
   '@tiptap/core':
     specifier: ^2.0.4
     version: 2.0.4(@tiptap/pm@2.0.4)
@@ -420,8 +420,8 @@ packages:
       type-fest: 2.19.0
     dev: false
 
-  /@seorii/prosemirror-math@0.3.1(katex@0.13.24)(prosemirror-commands@1.5.2)(prosemirror-gapcursor@1.3.2)(prosemirror-history@1.3.2)(prosemirror-inputrules@1.2.1)(prosemirror-keymap@1.2.2)(prosemirror-model@1.19.3)(prosemirror-state@1.4.3)(prosemirror-transform@1.7.4)(prosemirror-view@1.31.7):
-    resolution: {integrity: sha512-hX/+u2xrvDPyTAm2omWHIMLm5HfCnCFVMvP/XNAhpwgxtsxt8z1NCHgkq6rr9eDtAVVFMOdiRdZInMSujbw4Wg==}
+  /@seorii/prosemirror-math@0.3.2(katex@0.13.24)(prosemirror-commands@1.5.2)(prosemirror-gapcursor@1.3.2)(prosemirror-history@1.3.2)(prosemirror-inputrules@1.2.1)(prosemirror-keymap@1.2.2)(prosemirror-model@1.19.3)(prosemirror-state@1.4.3)(prosemirror-transform@1.7.4)(prosemirror-view@1.31.7):
+    resolution: {integrity: sha512-6EtZT8/y5nZm28GCP27Gxuqvb7/qQrhDKt3oL+P7Ft6quH/eZ7UlbntBk/EIwMrJ1w5RwLyt7Pkvqv/zfARfpA==}
     peerDependencies:
       katex: ^0.13.24
       prosemirror-commands: ^1.5.2
