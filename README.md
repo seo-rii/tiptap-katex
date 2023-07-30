@@ -1,6 +1,7 @@
 # tiptap-katex
 
 > KaTeX plugin for tiptap editor
+> Simple wrapper of [prosemirror-math](https://github.com/benrbray/prosemirror-math)
 
 ## Usage
 
