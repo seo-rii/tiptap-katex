@@ -7,7 +7,7 @@ import {
     makeInlineMathInputRule,
     REGEX_INLINE_MATH_DOLLARS,
     mathPlugin,
-} from '@benrbray/prosemirror-math';
+} from '@seorii/prosemirror-math';
 
 export const Katex = Node.create({
     name: 'math_inline',
