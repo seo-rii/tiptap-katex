@@ -1,6 +1,6 @@
 {
   "name": "tiptap-katex",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Katex integration for tiptap",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "type": "module",
   "license": "MIT",
   "dependencies": {
-    "@seorii/prosemirror-math": "^0.3.2",
+    "@seorii/prosemirror-math": "^0.3.3",
     "@tiptap/core": "^2.0.4",
     "prosemirror-inputrules": "^1.2.1"
   },
