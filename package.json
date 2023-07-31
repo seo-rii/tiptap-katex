@@ -1,6 +1,6 @@
 {
   "name": "tiptap-katex",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Katex integration for tiptap",
   "main": "index.js",
   "scripts": {
