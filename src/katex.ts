@@ -6,6 +6,8 @@ import {inputRules} from 'prosemirror-inputrules';
 import {
     makeInlineMathInputRule,
     REGEX_INLINE_MATH_DOLLARS,
+    makeBlockMathInputRule,
+    REGEX_BLOCK_MATH_DOLLARS,
     mathPlugin,
 } from '@seorii/prosemirror-math';
 
@@ -27,7 +29,7 @@ export const Katex = Node.create({
 
     addProseMirrorPlugins() {
         const inputRulePlugin = inputRules({
-            rules: [makeInlineMathInputRule(REGEX_INLINE_MATH_DOLLARS, this.type)],
+            rules: [makeInlineMathInputRule(REGEX_INLINE_MATH_DOLLARS, this.type), makeBlockMathInputRule(REGEX_BLOCK_MATH_DOLLARS, this.type)],
         });
         return [mathPlugin, inputRulePlugin];
     },
